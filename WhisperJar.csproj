@@ -73,8 +73,6 @@
       <DependentUpon>MainWindow.xib</DependentUpon>
     </Compile>
     <Compile Include="Main.cs" />
-    <Compile Include="Storage.cs" />
-    <Compile Include="MyTableView.cs" />
     <Compile Include="SQLite.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +81,5 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="Info.plist" />
-    <None Include="notes.txt" />
   </ItemGroup>
 </Project>

@@ -43,13 +43,11 @@ namespace WhisperJar
 		public int Length { get; set; }
 		
 		private DateTime _startedRecordingAt;
-		private AVAudioRecorder _recorder;
-		private AVAudioPlayer _player;
 
 		public Whisper () : base()
 		{
 			CreatedAt = DateTime.Now;
-			Name = "";
+			Name = "New Whisper";
 		}
 		
 		public void StartRecording ()
